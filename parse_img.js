@@ -36,7 +36,7 @@ function parsePage(ls_id, number_id){
 function downloadImg(ls_id, number_id, url_img) {
 	const options = {
 	  url: url_img,
-	  dest: 'images/'+ls_id+'.png'                // Save to /path/to/dest/image.jpg
+	  dest: 'images/'+ls_id+'.png'          
 	}
 
 	download.image(options)
